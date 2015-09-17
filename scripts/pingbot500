@@ -1,0 +1,14 @@
+module.exports = function (robot) {
+
+  robot.hear(/ping/i, function(res) {
+    res.send("PING! ... pong ٩(͡๏̯͡๏)۶");
+  });
+
+  robot.hear(/dreams/i, function(res){
+    res.send("I wish to be a real boy");
+  });
+  robot.hear(/truth/i, function(res){
+    res.send("Conceal, don't feel");
+  });
+
+};
